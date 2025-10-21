@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="87.063" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\vj&apos;\eclipse-workspace\qa\target\test-classes;C:\Users\vj&apos;\eclipse-workspace\qa\target\classes;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-java\4.36.0\selenium-java-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-api\4.36.0\selenium-api-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.36.0\selenium-chrome-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.36.0\selenium-chromium-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-json\4.36.0\selenium-json-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.36.0\selenium-manager-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.36.0\selenium-devtools-v138-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.36.0\selenium-devtools-v139-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.36.0\selenium-devtools-v140-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.36.0\selenium-edge-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.36.0\selenium-firefox-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-http\4.36.0\selenium-http-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.36.0\selenium-ie-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.36.0\selenium-remote-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\vj&apos;\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\vj&apos;\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vj&apos;\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\vj&apos;\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-api\1.54.0\opentelemetry-api-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-context\1.54.0\opentelemetry-context-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-common\1.54.0\opentelemetry-common-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.54.0\opentelemetry-exporter-logging-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.54.0\opentelemetry-sdk-common-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.54.0\opentelemetry-sdk-extension-autoconfigure-spi-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.54.0\opentelemetry-sdk-extension-autoconfigure-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.54.0\opentelemetry-sdk-trace-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.54.0\opentelemetry-sdk-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.54.0\opentelemetry-sdk-metrics-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.54.0\opentelemetry-sdk-logs-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-os\4.36.0\selenium-os-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.36.0\selenium-safari-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-support\4.36.0\selenium-support-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\vj&apos;\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\vj&apos;\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\vj&apos;\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\vj&apos;\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\vj&apos;\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\vj&apos;\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\vj&apos;\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\vj&apos;\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\vj&apos;\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\vj&apos;\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\vj&apos;\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\vj&apos;\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\vj&apos;\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\vj&apos;\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\vj&apos;\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\vj&apos;\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\vj&apos;\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\vj&apos;\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\vj&apos;\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\vj&apos;\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\vj&apos;\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\vj&apos;\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\vj&apos;\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\vj&apos;\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\vj&apos;\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\vj&apos;\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\vj&apos;\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\vj&apos;\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\vj&apos;\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\vj&apos;\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\vj&apos;\.m2\repository\org\apache\poi\poi-scratchpad\5.2.3\poi-scratchpad-5.2.3.jar;C:\Users\vj&apos;\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\vj&apos;\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\vj&apos;\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\vj&apos;\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\vj&apos;\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\vj&apos;\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-java\7.10.0\cucumber-java-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-core\7.10.0\cucumber-core-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-gherkin\7.10.0\cucumber-gherkin-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.0\cucumber-gherkin-messages-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\gherkin\25.0.2\gherkin-25.0.2.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\datatable\7.10.0\datatable-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-plugin\7.10.0\cucumber-plugin-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\docstring\7.10.0\docstring-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\vj&apos;\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-junit\7.10.0\cucumber-junit-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\vj&apos;\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\vj&apos;\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\vj&apos;\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="E:\eclipse-java-2025-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\vj&apos;\AppData\Local\Temp\surefire7600747826157235953\surefirebooter-20251021132321474_3.jar C:\Users\vj&apos;\AppData\Local\Temp\surefire7600747826157235953 2025-10-21T13-23-18_417-jvmRun1 surefire-20251021132321474_1tmp surefire_0-20251021132321474_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\vj&apos;\eclipse-workspace\qa\target\test-classes;C:\Users\vj&apos;\eclipse-workspace\qa\target\classes;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-java\4.36.0\selenium-java-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-api\4.36.0\selenium-api-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.36.0\selenium-chrome-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.36.0\selenium-chromium-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-json\4.36.0\selenium-json-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.36.0\selenium-manager-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.36.0\selenium-devtools-v138-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.36.0\selenium-devtools-v139-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.36.0\selenium-devtools-v140-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.36.0\selenium-edge-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.36.0\selenium-firefox-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-http\4.36.0\selenium-http-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.36.0\selenium-ie-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.36.0\selenium-remote-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\vj&apos;\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\vj&apos;\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vj&apos;\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\vj&apos;\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-api\1.54.0\opentelemetry-api-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-context\1.54.0\opentelemetry-context-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-common\1.54.0\opentelemetry-common-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.54.0\opentelemetry-exporter-logging-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.54.0\opentelemetry-sdk-common-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.54.0\opentelemetry-sdk-extension-autoconfigure-spi-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.54.0\opentelemetry-sdk-extension-autoconfigure-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.54.0\opentelemetry-sdk-trace-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.54.0\opentelemetry-sdk-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.54.0\opentelemetry-sdk-metrics-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.54.0\opentelemetry-sdk-logs-1.54.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-os\4.36.0\selenium-os-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.36.0\selenium-safari-driver-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\org\seleniumhq\selenium\selenium-support\4.36.0\selenium-support-4.36.0.jar;C:\Users\vj&apos;\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\vj&apos;\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\vj&apos;\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\vj&apos;\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\vj&apos;\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\vj&apos;\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\vj&apos;\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\vj&apos;\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\vj&apos;\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\vj&apos;\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\vj&apos;\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\vj&apos;\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\vj&apos;\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\vj&apos;\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\vj&apos;\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\vj&apos;\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\vj&apos;\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\vj&apos;\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\vj&apos;\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\vj&apos;\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\vj&apos;\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\vj&apos;\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\vj&apos;\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\vj&apos;\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\vj&apos;\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\vj&apos;\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\vj&apos;\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\vj&apos;\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\vj&apos;\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\vj&apos;\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\vj&apos;\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\vj&apos;\.m2\repository\org\apache\poi\poi-scratchpad\5.2.3\poi-scratchpad-5.2.3.jar;C:\Users\vj&apos;\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\vj&apos;\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\vj&apos;\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\vj&apos;\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\vj&apos;\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\vj&apos;\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-java\7.10.0\cucumber-java-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-core\7.10.0\cucumber-core-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-gherkin\7.10.0\cucumber-gherkin-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.0\cucumber-gherkin-messages-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\gherkin\25.0.2\gherkin-25.0.2.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\datatable\7.10.0\datatable-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-plugin\7.10.0\cucumber-plugin-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\docstring\7.10.0\docstring-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\vj&apos;\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vj&apos;\.m2\repository\io\cucumber\cucumber-junit\7.10.0\cucumber-junit-7.10.0.jar;C:\Users\vj&apos;\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\vj&apos;\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\vj&apos;\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\vj&apos;\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vj&apos;"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="E:\eclipse-java-2025-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\vj&apos;\eclipse-workspace\qa"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\vj&apos;\AppData\Local\Temp\surefire7600747826157235953\surefirebooter-20251021132321474_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.8+9-LTS"/>
+    <property name="user.name" value="vj&apos;"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.8+9"/>
+    <property name="localRepository" value="C:\Users\vj&apos;\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\vj&apos;\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="C:\Users\vj&apos;\eclipse-workspace\qa"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="E:\eclipse-java-2025-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:/eclipse-java-2025-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin/server;E:/eclipse-java-2025-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\apache-maven-3.9.11\bin;C:\Users\vj&apos;\AppData\Local\Microsoft\WindowsApps;;E:\eclipse-java-2025-09-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.8+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="login with validCredentials #1" classname="Login Functionality" time="7.455">
+    <system-out><![CDATA[
+Scenario Outline: login with validCredentials &amp#27;[90m# src/test/resources/features/Login.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to the login page&amp#27;[0m      &amp#27;[90m# stepdefinitions.Login.user_navigates_to_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters valid emailId &amp#27;[0m&amp#27;[32m&amp#27;[1m1@agmail.com&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enters_valid_email_id(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters validPassword &amp#27;[0m&amp#27;[32m&amp#27;[1m123456&amp#27;[0m        &amp#27;[90m# stepdefinitions.Login.user_enters_validPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on the login button&amp#27;[0m          &amp#27;[90m# stepdefinitions.Login.user_click_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to account page&amp#27;[0m         &amp#27;[90m# stepdefinitions.Login.user_navigates_to_account_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:23:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="login with validCredentials #2" classname="Login Functionality" time="5.5">
+    <system-out><![CDATA[
+Scenario Outline: login with validCredentials &amp#27;[90m# src/test/resources/features/Login.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to the login page&amp#27;[0m      &amp#27;[90m# stepdefinitions.Login.user_navigates_to_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters valid emailId &amp#27;[0m&amp#27;[32m&amp#27;[1m1@bgmail.com&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enters_valid_email_id(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters validPassword &amp#27;[0m&amp#27;[32m&amp#27;[1m123456&amp#27;[0m        &amp#27;[90m# stepdefinitions.Login.user_enters_validPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on the login button&amp#27;[0m          &amp#27;[90m# stepdefinitions.Login.user_click_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to account page&amp#27;[0m         &amp#27;[90m# stepdefinitions.Login.user_navigates_to_account_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:23:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="login with validCredentials #3" classname="Login Functionality" time="6.277">
+    <system-out><![CDATA[
+Scenario Outline: login with validCredentials &amp#27;[90m# src/test/resources/features/Login.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to the login page&amp#27;[0m      &amp#27;[90m# stepdefinitions.Login.user_navigates_to_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters valid emailId &amp#27;[0m&amp#27;[32m&amp#27;[1m1@cgmail.com&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enters_valid_email_id(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters validPassword &amp#27;[0m&amp#27;[32m&amp#27;[1m123456&amp#27;[0m        &amp#27;[90m# stepdefinitions.Login.user_enters_validPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on the login button&amp#27;[0m          &amp#27;[90m# stepdefinitions.Login.user_click_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to account page&amp#27;[0m         &amp#27;[90m# stepdefinitions.Login.user_navigates_to_account_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:23:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="login with invalidCredentials" classname="Login Functionality" time="6.527">
+    <system-out><![CDATA[
+Scenario: login with invalidCredentials                             &amp#27;[90m# src/test/resources/features/Login.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to the login page&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Login.user_navigates_to_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters inValid emailId&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.Login.user_enters_in_valid_email_id()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters inValid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456789"&amp#27;[0m                      &amp#27;[90m# stepdefinitions.Login.user_enters_in_valid_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on the login button&amp#27;[0m                                &amp#27;[90m# stepdefinitions.Login.user_click_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser seen warning message about invalid emailId and password&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_seen_warning_message_about_invalid_email_id_and_password()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:23:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="login with validEmailIdAndInvalidPassword" classname="Login Functionality" time="7.089">
+    <system-out><![CDATA[
+Scenario: login with validEmailIdAndInvalidPassword                 &amp#27;[90m# src/test/resources/features/Login.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to the login page&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Login.user_navigates_to_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters valid emailId &amp#27;[0m&amp#27;[32m&amp#27;[1m"1@agmail.com"&amp#27;[0m                     &amp#27;[90m# stepdefinitions.Login.user_enters_valid_email_id(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters inValid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456789"&amp#27;[0m                      &amp#27;[90m# stepdefinitions.Login.user_enters_in_valid_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on the login button&amp#27;[0m                                &amp#27;[90m# stepdefinitions.Login.user_click_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser seen warning message about invalid emailId and password&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_seen_warning_message_about_invalid_email_id_and_password()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:23:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="login with invalidEmailIdAndValidPassword" classname="Login Functionality" time="5.864">
+    <system-out><![CDATA[
+Scenario: login with invalidEmailIdAndValidPassword                 &amp#27;[90m# src/test/resources/features/Login.feature:29&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to the login page&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Login.user_navigates_to_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters inValid emailId&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.Login.user_enters_in_valid_email_id()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters validPassword &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456"&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Login.user_enters_validPassword(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on the login button&amp#27;[0m                                &amp#27;[90m# stepdefinitions.Login.user_click_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser seen warning message about invalid emailId and password&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_seen_warning_message_about_invalid_email_id_and_password()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:23:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="login without providing anyDetails" classname="Login Functionality" time="5.048">
+    <system-out><![CDATA[
+Scenario: login without providing anyDetails                        &amp#27;[90m# src/test/resources/features/Login.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to the login page&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Login.user_navigates_to_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser didnot enters any value in emailId field&amp#27;[0m                &amp#27;[90m# stepdefinitions.Login.user_didnot_enters_any_value_in_email_id_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser didnot enters any value in password field&amp#27;[0m                &amp#27;[90m# stepdefinitions.Login.user_didnot_enters_any_value_in_password_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on the login button&amp#27;[0m                                &amp#27;[90m# stepdefinitions.Login.user_click_on_the_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser seen warning message about invalid emailId and password&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_seen_warning_message_about_invalid_email_id_and_password()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:24:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="register with mandatory fields" classname="register functionality" time="8.162">
+    <system-out><![CDATA[
+Scenario: register with mandatory fields          &amp#27;[90m# src/test/resources/features/Register.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to register page&amp#27;[0m           &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters value for the mandatory fields&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.user_enters_value_for_the_mandatory_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName               | eleven |
+    | lastName                | micky  |
+    | telephone               | 123456 |
+    | registerPassword        | 123456 |
+    | registerConfirmPassword | 123456 |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the privacy policy&amp#27;[0m           &amp#27;[90m# stepdefinitions.Register.user_clicks_on_the_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on continue button&amp#27;[0m               &amp#27;[90m# stepdefinitions.Register.user_click_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to account created page&amp#27;[0m     &amp#27;[90m# stepdefinitions.Register.user_navigates_to_account_created_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:24:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="register with all fields" classname="register functionality" time="6.901">
+    <system-out><![CDATA[
+Scenario: register with all fields            &amp#27;[90m# src/test/resources/features/Register.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to register page&amp#27;[0m       &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters value for the all fields&amp#27;[0m   &amp#27;[90m# stepdefinitions.Register.user_enters_value_for_the_all_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName               | eleven |
+    | lastName                | micky  |
+    | telephone               | 123456 |
+    | registerPassword        | 123456 |
+    | registerConfirmPassword | 123456 |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on newsletter policy&amp#27;[0m        &amp#27;[90m# stepdefinitions.Register.user_clicks_on_newsletter_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the privacy policy&amp#27;[0m       &amp#27;[90m# stepdefinitions.Register.user_clicks_on_the_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on continue button&amp#27;[0m           &amp#27;[90m# stepdefinitions.Register.user_click_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to account created page&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.user_navigates_to_account_created_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:24:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="register with duplicate email" classname="register functionality" time="7.207">
+    <system-out><![CDATA[
+Scenario: register with duplicate email                          &amp#27;[90m# src/test/resources/features/Register.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to register page&amp#27;[0m                          &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters value for the all fields with duplicate email&amp#27;[0m &amp#27;[90m# stepdefinitions.Register.user_enters_value_for_the_all_fields_with_duplicate_email(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName               | eleven                |
+    | lastName                | micky                 |
+    | email                   | vijayozil87@gmail.com |
+    | telephone               | 123456                |
+    | registerPassword        | 123456                |
+    | registerConfirmPassword | 123456                |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on newsletter policy&amp#27;[0m                           &amp#27;[90m# stepdefinitions.Register.user_clicks_on_newsletter_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the privacy policy&amp#27;[0m                          &amp#27;[90m# stepdefinitions.Register.user_clicks_on_the_privacy_policy()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on continue button&amp#27;[0m                              &amp#27;[90m# stepdefinitions.Register.user_click_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser got duplicate mail warning&amp#27;[0m                           &amp#27;[90m# stepdefinitions.Register.user_got_duplicate_mail_warning()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:24:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="register without providing any values" classname="register functionality" time="4.838">
+    <system-out><![CDATA[
+Scenario: register without providing any values &amp#27;[90m# src/test/resources/features/Register.feature:42&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to register page&amp#27;[0m         &amp#27;[90m# stepdefinitions.Register.user_navigates_to_register_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser didnot enters value for the fields&amp#27;[0m  &amp#27;[90m# stepdefinitions.Register.user_didnot_enters_value_for_the_fields()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on continue button&amp#27;[0m             &amp#27;[90m# stepdefinitions.Register.user_click_on_continue_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser got mandatory fields warning&amp#27;[0m        &amp#27;[90m# stepdefinitions.Register.user_got_mandatory_fields_warning()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:24:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="search with validProduct" classname="Search functionality" time="3.922">
+    <system-out><![CDATA[
+Scenario: search with validProduct       &amp#27;[90m# src/test/resources/features/Search.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser already on homePage&amp#27;[0m         &amp#27;[90m# stepdefinitions.Search.user_already_on_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters validProductName &amp#27;[0m&amp#27;[32m&amp#27;[1m"HP"&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.user_enters_valid_product_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m       &amp#27;[90m# stepdefinitions.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to search page&amp#27;[0m     &amp#27;[90m# stepdefinitions.Search.user_navigates_to_search_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:24:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="search with invalidProduct" classname="Search functionality" time="3.871">
+    <system-out><![CDATA[
+Scenario: search with invalidProduct                 &amp#27;[90m# src/test/resources/features/Search.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser already on homePage&amp#27;[0m                     &amp#27;[90m# stepdefinitions.Search.user_already_on_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters inValidProductName &amp#27;[0m&amp#27;[32m&amp#27;[1m"HPA"&amp#27;[0m          &amp#27;[90m# stepdefinitions.Search.user_enters_in_valid_product_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                   &amp#27;[90m# stepdefinitions.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to search page failure message&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.user_navigates_to_search_page_failure_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:24:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+  <testcase name="search withOutAnyDetails" classname="Search functionality" time="3.883">
+    <system-out><![CDATA[
+Scenario: search withOutAnyDetails       &amp#27;[90m# src/test/resources/features/Search.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser already on homePage&amp#27;[0m         &amp#27;[90m# stepdefinitions.Search.user_already_on_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser didnot enters anyProductName&amp#27;[0m &amp#27;[90m# stepdefinitions.Search.user_didnot_enters_any_product_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m       &amp#27;[90m# stepdefinitions.Search.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to search page&amp#27;[0m     &amp#27;[90m# stepdefinitions.Search.user_navigates_to_search_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 21, 2025 1:24:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+]]></system-err>
+  </testcase>
+</testsuite>
